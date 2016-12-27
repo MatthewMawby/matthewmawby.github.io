@@ -16,8 +16,11 @@ div.tag {
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 25%;
+    height:8%;
     background-color: black;
     color: white;
+    font-family: sans-serif;
 }
 
 @media screen and (min-width: 50em) {
