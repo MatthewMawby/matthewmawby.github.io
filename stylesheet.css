@@ -1,0 +1,35 @@
+a.img {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+a.img:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+div.tag {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 50em) {
+  a.img {
+    width: calc(33% - 6px);
+  }
+
+  a.img:nth-of-type(1n) {
+    margin-right: 8px;
+  }
+
+  a.img:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
