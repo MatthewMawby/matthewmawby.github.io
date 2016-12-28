@@ -73,3 +73,24 @@ button.hover-btn:hover{
     background-color: white;
     color: black;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    vertical-align:middle; color
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+}
+
+a.link-hov{
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+a.link-hov:hover{
+    color: green;
+}
