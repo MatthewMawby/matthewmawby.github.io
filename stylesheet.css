@@ -27,6 +27,20 @@ div.tag {
     padding-right: 7.5%;
 }
 
+div.splash-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 4em;
+    z-index: 99999 !important;
+}
+
+nav.navbar{
+    z-index: 999999 !important;
+}
+
 @media screen and (min-width: 50em) {
   a.img {
     width: calc(33.3333% - 6px);
