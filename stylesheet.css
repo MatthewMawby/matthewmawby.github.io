@@ -1,6 +1,6 @@
 a.img {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-top: 8px;
   width: calc(50% - 4px);
   margin-right: 8px;
   text-decoration: none;
@@ -21,18 +21,55 @@ div.tag {
     background-color: black;
     color: white;
     font-family: sans-serif;
+    text-align: center;
 }
 
 @media screen and (min-width: 50em) {
   a.img {
-    width: calc(33% - 6px);
+    width: calc(33.3333% - 6px);
   }
 
-  a.img:nth-of-type(1n) {
+  a.img:nth-of-type(2n) {
     margin-right: 8px;
   }
 
   a.img:nth-of-type(3n) {
     margin-right: 0;
   }
+}
+
+input.contact{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+}
+
+textarea.contact{
+    margin-top: 16px;
+    padding: 8px;
+    display: block;
+    border: 1px solid #808080;
+    width: 100%;
+    background-attachment: local;
+    background-image:
+        linear-gradient(to right, white 10px, transparent 10px),
+        linear-gradient(to left, white 10px, transparent 10px),
+        repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+}
+
+button.hover-btn{
+    -webkit-transition-duration: 0.4s;
+    transition: 0.4s;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+button.hover-btn:hover{
+    background-color: white;
+    color: black;
 }
