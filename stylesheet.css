@@ -1,3 +1,14 @@
+a.link-hov{
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+a.link-hov:hover{
+    color: green;
+}
+
 a.img {
   display: inline-block;
   margin-top: 8px;
@@ -10,35 +21,6 @@ a.img {
 
 a.img:nth-of-type(2n) {
   margin-right: 0;
-}
-
-div.tag {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background-color: black;
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 1em;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 7.5%;
-    padding-right: 7.5%;
-}
-
-div.splash-text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: 4em;
-    z-index: 99999 !important;
-}
-
-nav.navbar{
-    z-index: 999999 !important;
 }
 
 @media screen and (min-width: 50em) {
@@ -77,6 +59,40 @@ textarea.contact{
   line-height: 31px;
 }
 
+div.tag {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+div.splash-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 4em;
+    z-index: 99999 !important;
+}
+
+nav.navbar{
+    z-index: 999999 !important;
+}
+
+img.gravatar {
+    border-radius: 5px;
+    filter:grayscale(50%);
+}
+
 button.hover-btn{
     -webkit-transition-duration: 0.4s;
     transition: 0.4s;
@@ -99,15 +115,4 @@ footer{
     padding-top: 16px;
     padding-bottom: 16px;
     color: white;
-}
-
-a.link-hov{
-    color: white;
-    -webkit-transition-duration: 0.4s;
-    transition: 0.4s;
-    text-decoration: underline;
-}
-
-a.link-hov:hover{
-    color: green;
 }
